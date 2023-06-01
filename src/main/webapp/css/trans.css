@@ -1,0 +1,277 @@
+/*payment*/
+
+.text_left {
+	font-family: 'Fasthand', cursive;
+	font-size: 40px;
+	line-height: 60px;
+}
+
+.main_payment {
+	margin-top: 55px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-top: 10px solid #88bbb5;
+	background: white;
+	padding-left: 10%;
+}
+
+.container {
+	margin: 10px;
+	font-size: 14px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.payment-top-wrap {
+	font-size: 20px;
+	padding: 90px 0;
+	width: 80%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	position: relative;
+}
+
+.line {
+	width: 50%;
+	border-bottom: 2px solid black;
+	position: absolute;
+}
+
+.cricle {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	position: absolute;
+	background: white;
+	border: 2px solid black;
+}
+
+.cricle1 {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	position: absolute;
+	background: white;
+	border: 2px solid black;
+	left: 22.8%;
+}
+
+.cricle2 {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	position: absolute;
+	background: white;
+	border: 2px solid black;
+	right: 22.7%;
+}
+
+.payment-top_item {
+	z-index: 999999;
+}
+
+.text-cart {
+	position: absolute;
+	left: 22.5%;
+	top: 64%;
+}
+
+.text-address {
+	position: absolute;
+	top: 64%;
+}
+
+.text-payment {
+	position: absolute;
+	right: 20.3%;
+	top: 64%;
+}
+
+.payment-row {
+	display: flex;
+	width: 90%;
+	line-height: 40px;
+	padding: auto;
+}
+
+.row-left {
+	flex: 3;
+	padding-left: 2%;
+	border-right: 2px solid black;
+}
+
+.row-right {
+	flex: 2;
+}
+
+.method-payment img {
+	width: 100%;
+}
+
+.row-img-payment {
+	width: 100px;
+}
+
+.row-right {
+	padding-left: 40px;
+}
+
+.payment-right-button {
+	display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #333;
+}
+
+.payment-right-button input {
+	width: 300px;
+	height: 35px;
+	padding: 12px;
+}
+
+.payment-right-button button {
+	width: 150px;
+	height: 35px;
+	background: black;
+	color: white;
+}
+
+.payment-right-button button:hover {
+	cursor: pointer;
+	background: white;
+	color: black;
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td,
+th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+table tfoot {
+	background-color: #bbbbbb;
+	font-weight: 700;
+}
+
+.content-right-payment {
+	display: flex;
+	justify-content: center;
+	padding: 70px 0;
+}
+
+.content-right-payment button {
+	width: 400px;
+	height: 45px;
+	font-size: 24px;
+}
+
+.flex-col {
+	flex-direction: column;
+}
+
+.flex {
+	display: flex;
+}
+
+.py-2 {
+	padding-top: 1.5rem;
+	padding-bottom: 0.5rem;
+}
+
+.mt-4 {
+	margin-top: 2rem;
+}
+
+.gap-5 {
+	gap: 3.25rem;
+}
+
+.relative {
+	position: relative;
+}
+
+.w-full {
+	width: 100%;
+	height: 80%;
+}
+
+.py-3 {
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+}
+
+.px-4 {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.border-b {
+	border-bottom-width: 1px;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+.left-2 {
+	left: 2.5rem;
+}
+
+.-top-2\.5 {
+	top: -0.625rem;
+}
+
+.text-gray-400 {
+	--tw-text-opacity: 1;
+	color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+.text-sm {
+	font-size: 1rem;
+	line-height: 0.25rem;
+}
+
+.transition-all {
+	transition-property: all;
+	transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+	transition-duration: .15s;
+}
+
+.bg-transparent {
+	background-color: transparent;
+}
+
+.border-b {
+	border-bottom-width: 1px;
+}
+
+.text-base {
+	font-size: 1rem;
+	line-height: .5rem;
+}
+
+.bg-secondary {
+	background: white;
+}
